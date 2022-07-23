@@ -15,4 +15,8 @@
       <Folder Include="Controllers" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ChatApp.Models\ChatApp.Models.csproj" />
+    </ItemGroup>
+
 </Project>

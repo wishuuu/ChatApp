@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.SignalR;
+using Models;
 
 namespace ChatApp.API.Hubs;
 
@@ -18,7 +19,7 @@ public class UserHub : Hub
         return base.OnConnectedAsync();
     }
 
-    public async Task SendMessage(string message)
+    public async Task SendMessage(Message message)
     {
         await this.Clients.Others.SendAsync("Message", message);
     }

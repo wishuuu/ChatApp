@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp.SignalRServer", "ChatApp.SignalRServer\ChatApp.SignalRServer.csproj", "{4EA6CA52-6DE8-4CD2-8D27-06926F10928E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp.Models", "ChatApp.Models\ChatApp.Models.csproj", "{7499BB2F-D6F2-405F-891B-A5C35E02E18E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp.ConsoleClient", "ChatApp.ConsoleClient\ChatApp.ConsoleClient.csproj", "{EC01AA03-6F48-4DD8-A2DA-ECAD09D7E385}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EA6CA52-6DE8-4CD2-8D27-06926F10928E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA6CA52-6DE8-4CD2-8D27-06926F10928E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA6CA52-6DE8-4CD2-8D27-06926F10928E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA6CA52-6DE8-4CD2-8D27-06926F10928E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7499BB2F-D6F2-405F-891B-A5C35E02E18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7499BB2F-D6F2-405F-891B-A5C35E02E18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7499BB2F-D6F2-405F-891B-A5C35E02E18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7499BB2F-D6F2-405F-891B-A5C35E02E18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC01AA03-6F48-4DD8-A2DA-ECAD09D7E385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC01AA03-6F48-4DD8-A2DA-ECAD09D7E385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC01AA03-6F48-4DD8-A2DA-ECAD09D7E385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC01AA03-6F48-4DD8-A2DA-ECAD09D7E385}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
